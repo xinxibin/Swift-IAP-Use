@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     @IBAction func onBuyBtnClick(_ sender: Any) {
         
-        SwiftyStoreKit.purchaseProduct("com.baofeng.fmlive.dev_6", quantity: 3, atomically: true) { result in
+        SwiftyStoreKit.purchaseProduct("商品ID", quantity: 3, atomically: true) { result in
             switch result {
             case .success(let purchase):
                 print("Purchase Success: \(purchase.productId)")
@@ -54,7 +54,7 @@ class ViewController: UIViewController {
     }
     
     func getList() {
-        SwiftyStoreKit.retrieveProductsInfo(["com.baofeng.fmlive.dev_6"]) { result in
+        SwiftyStoreKit.retrieveProductsInfo(["商品ID"]) { result in
             if let product = result.retrievedProducts.first {
                 let priceString = product.localizedPrice!
                 print("Product: \(product.localizedDescription), price: \(priceString)")
