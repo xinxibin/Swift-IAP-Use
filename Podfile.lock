@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.4.0)
+  - SwiftyStoreKit (0.10.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - SwiftyStoreKit
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  SwiftyStoreKit: 1efe75032fa16140176863c080268cf0319b520d
+
+PODFILE CHECKSUM: 165e8ca6ef5dfc9dba6f505f42941656044f12ff
+
+COCOAPODS: 1.2.0
