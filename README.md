@@ -135,18 +135,18 @@ SwiftyStoreKit.purchaseProduct("产品ID", quantity: 1, atomically: true) { resu
 
 
 ## 基本阅读 --> SwiftyStoreKit 
->
- [Apple  -  WWDC16，Session 702：使用Swift 3为应用内购买的商店套件](https://developer.apple.com/videos/play/wwdc2016/702/)
- [Apple  -  TN2387：应用内购买最佳做法](https://developer.apple.com/library/content/technotes/tn2387/_index.html)
- [Apple  - 关于收据验证](https://developer.apple.com/library/content/releasenotes/General/ValidateAppStoreReceipt/Introduction.html)
- [Apple  - 收据验证编程指南](https://developer.apple.com/library/content/releasenotes/General/ValidateAppStoreReceipt/Chapters/ReceiptFields.html#//apple_ref/doc/uid/TP40010573-CH106-SW1)
-[Apple  - 本地验证收据](https://developer.apple.com/library/content/releasenotes/General/ValidateAppStoreReceipt/Chapters/ValidateLocally.html)
-[Apple  - 使用订阅](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/StoreKitGuide/Chapters/Subscriptions.html#//apple_ref/doc/uid/TP40008267-CH7-SW6 )
-[Apple  - 提供订阅](https://developer.apple.com/app-store/subscriptions/)
-[苹果 - 恢复购买的产品](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/StoreKitGuide/Chapters/Restoring.html#//apple_ref/doc/uid/TP40008267-CH8-SW9 )
-[objc.io  - 收据验证](https://www.objc.io/issues/17-security/receipt-validation/)
-[Apple TN 2413  - 为什么我的产品标识符被返回到invalidProductIdentifiers数组？](https://developer.apple.com/library/content/technotes/tn2413/_index.html#//apple_ref/doc/uid/ DTS40016228-CH1-故障排除-WHY_ARE_MY_PRODUCT_IDENTIFIERS_BEING_RETURNED_IN_THE_INVALIDPRODUCTIDENTIFIERS_ARRAY_)
-[产品ID无效](http://troybrant.net/blog/2010/01/invalid-product-ids/)：常见错误清单
+
+ * [Apple - WWDC16, Session 702: Using Store Kit for In-app Purchases with Swift 3](https://developer.apple.com/videos/play/wwdc2016/702/)
+* [Apple - TN2387: In-App Purchase Best Practices](https://developer.apple.com/library/content/technotes/tn2387/_index.html)
+* [Apple - About Receipt Validation](https://developer.apple.com/library/content/releasenotes/General/ValidateAppStoreReceipt/Introduction.html)
+* [Apple - Receipt Validation Programming Guide](https://developer.apple.com/library/content/releasenotes/General/ValidateAppStoreReceipt/Chapters/ReceiptFields.html#//apple_ref/doc/uid/TP40010573-CH106-SW1)
+* [Apple - Validating Receipts Locally](https://developer.apple.com/library/content/releasenotes/General/ValidateAppStoreReceipt/Chapters/ValidateLocally.html)
+* [Apple - Working with Subscriptions](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/StoreKitGuide/Chapters/Subscriptions.html#//apple_ref/doc/uid/TP40008267-CH7-SW6)
+* [Apple - Offering Subscriptions](https://developer.apple.com/app-store/subscriptions/)
+* [Apple - Restoring Purchased Products](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/StoreKitGuide/Chapters/Restoring.html#//apple_ref/doc/uid/TP40008267-CH8-SW9)
+* [objc.io - Receipt Validation](https://www.objc.io/issues/17-security/receipt-validation/)
+* [Apple TN 2413 - Why are my product identifiers being returned in the invalidProductIdentifiers array?](https://developer.apple.com/library/content/technotes/tn2413/_index.html#//apple_ref/doc/uid/DTS40016228-CH1-TROUBLESHOOTING-WHY_ARE_MY_PRODUCT_IDENTIFIERS_BEING_RETURNED_IN_THE_INVALIDPRODUCTIDENTIFIERS_ARRAY_)
+* [Invalid Product IDs](http://troybrant.net/blog/2010/01/invalid-product-ids/): Checklist of common mistakes
 
 ## 延伸阅读
 
