@@ -1,8 +1,8 @@
 ## iOS 开发内购实现
 
 ## 代码环境
-- iOS IAP by Swift 3.1.1 , Xcode 8.3.2
-- Really Really Easy to use
+- iOS IAP by Swift 3.1.1 
+- Xcode 8.3.2 Really Really Easy to use
 
 ## 需要的轮子
 - [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit)
@@ -134,7 +134,7 @@ SwiftyStoreKit.purchaseProduct("产品ID", quantity: 1, atomically: true) { resu
 - SwiftyStoreKit 不知能做购买，还能恢复购买，具体使用方法见 [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit)
 
 
-## 基本阅读 --> SwiftyStoreKit 
+## 基本阅读 >SwiftyStoreKit 
 
  * [Apple - WWDC16, Session 702: Using Store Kit for In-app Purchases with Swift 3](https://developer.apple.com/videos/play/wwdc2016/702/)
 * [Apple - TN2387: In-App Purchase Best Practices](https://developer.apple.com/library/content/technotes/tn2387/_index.html)
@@ -154,6 +154,12 @@ SwiftyStoreKit.purchaseProduct("产品ID", quantity: 1, atomically: true) { resu
 
 [官方文档]
 (https://developer.apple.com/library/content/releasenotes/General/ValidateAppStoreReceipt/Chapters/ValidateRemotely.html)
+
+## 联系我
+
+- 我的邮箱 foryoudecode@gmail.com
+
+[我的博客](https://xinxibin.com)
 
 ## License
 AppPurchasesDemo is released under the MIT license. See LICENSE for details.
